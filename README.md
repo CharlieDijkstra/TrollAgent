@@ -24,5 +24,5 @@ TrollAgent是一款运行在iOS设备上的本地轻量化悬浮AI助手，使�
 ## ⚙️ 模型配置
 ### 重命名并移动到指定位置
 ```bash
-mv ~/Downloads/qwen_model.gguf /var/mobile/TrollAgent/TrollAgent.gguf
-mv ~/Downloads/t5.gguf /var/mobile/TrollAgent/t5-translate.gguf
+语言模型下载并放置 /var/mobile/TrollAgent/TrollAgent.gguf
+翻译模型下载并放置 /var/mobile/TrollAgent/t5-translate.gguf
