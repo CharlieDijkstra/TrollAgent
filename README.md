@@ -16,8 +16,12 @@ TrollAgent是一款运行在iOS设备上的本地轻量化悬浮AI助手，使�
 ## 🛠 技术栈
 
 - **核心引擎**：[llama.cpp](https://github.com/ggerganov/llama.cpp) - 高性能大模型推理框架
-- **语言模型**：Qwen系列GGUF格式量化模型
-- **翻译模型**：`t5_translate_en_ru_zh`专用多语言模型
+- **语言模型**：[Qwen系列GGUF格式量化模型](https://hf-mirror.com/unsloth/Qwen3-0.6B-GGUF/blob/main/Qwen3-0.6B-Q8_0.gguf)
+- **翻译模型**：[`t5_translate_en_ru_zh`专用多语言模型](https://hf-mirror.com/iG8R/t5_translate_en_ru_zh_large_1024_v2-Q8_0-GGUF/blob/main/t5_translate_en_ru_zh_large_1024_v2-q8_0.gguf)
 - **设备加速**：目前为适配低系统，未利用Metal框架实现GPU加速推理
 
 
+##  模型配置
+### 重命名并移动到指定位置
+mv ~/Downloads/qwen_model.gguf /var/mobile/TrollAgent/TrollAgent.gguf
+mv ~/Downloads/t5.gguf /var/mobile/TrollAgent/t5-translate.gguf
