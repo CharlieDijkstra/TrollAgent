@@ -38,7 +38,7 @@ TrollAgent是一款运行在iOS设备上的本地轻量化悬浮AI助手，使�
   | **small** | [PioneerMNDR/t5_translate_en_ru_zh_small_1024-Q8_0-GGUF](https://huggingface.co/PioneerMNDR/t5_translate_en_ru_zh_small_1024-Q8_0-GGUF/tree/main) | [PioneerMNDR/t5_translate_en_ru_zh_small_1024-Q8_0-GGUF](https://hf-mirror.com/PioneerMNDR/t5_translate_en_ru_zh_small_1024-Q8_0-GGUF/tree/main) |
   | **large** | [KeyserSoze1/t5_translate_en_ru_zh_large_1024_v2-Q8_0-GGUF](https://huggingface.co/KeyserSoze1/t5_translate_en_ru_zh_large_1024_v2-Q8_0-GGUF/tree/main) | [KeyserSoze1/t5_translate_en_ru_zh_large_1024_v2-Q8_0-GGUF](https://hf-mirror.com/KeyserSoze1/t5_translate_en_ru_zh_large_1024_v2-Q8_0-GGUF/tree/main) |
   
-#### 其他模型可以自行更换
+#### 模型的其他量化规格可以自行更换
 ---
 
 
